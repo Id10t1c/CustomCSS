@@ -47,7 +47,7 @@ messagesWrapper_ea2b0b {
 */
 
 /*chillax*/
-@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
+@import url('githubusercontent.com/Id10t1c/CustomCSS/Testing/Font_fix');
 
 /*removable addons*/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");

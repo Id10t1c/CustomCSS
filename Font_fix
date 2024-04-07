@@ -196,7 +196,7 @@
 
 .theme-dark .wordmark__5b8c9::before {
   content: "‏‏‎ c h i l l a x";
-  font-size: 12px;
+  font-size: 20px;
   font-family: "Poiret one" !important;
   position: fixed;
   color: rgb(255, 255, 255);

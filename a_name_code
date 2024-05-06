@@ -49,12 +49,12 @@
     --rs-medium-width: 3.5px;
     --rs-large-width: 4.5px;
     --rs-avatar-shape: 50%;
-    --rs-online-color: #1df59459;
-    --rs-idle-color: #faa81a69;
-    --rs-dnd-color: #f0474781;
-    --rs-offline-color: #636b755b;
-    --rs-streaming-color: #643da750;
-    --rs-invisible-color: #0000003d;
+    --rs-online-color: #1df594;
+    --rs-idle-color: #faa81a;
+    --rs-dnd-color: #df1a1a;
+    --rs-offline-color: #4f5052da;
+    --rs-streaming-color: #643da7a9;
+    --rs-invisible-color: #b3b2b2;
     --rs-phone-visible: block;
     --rs-phone-color: var(--rs-online-color);
 

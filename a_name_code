@@ -13,6 +13,7 @@
 
 
 
+
 /*window*/ /*dark mode*/
 :root.theme-dark {
     --window-margin: 20px; /*must be above 20px*/
@@ -193,11 +194,11 @@
     --rs-medium-width: 3.5px;
     --rs-large-width: 4.5px;
     --rs-avatar-shape: 50%;
-    --rs-online-color: #1df59459;
-    --rs-idle-color: #faa81a69;
-    --rs-dnd-color: #f0474781;
-    --rs-offline-color: #636b755b;
-    --rs-streaming-color: #643da750;
+    --rs-online-color: #1df594cb;
+    --rs-idle-color: #faa81ae0;
+    --rs-dnd-color: #e61c1cd2;
+    --rs-offline-color: #454749;
+    --rs-streaming-color: #643da79f;
     --rs-invisible-color: #0000003d;
     --rs-phone-visible: block;
     --rs-phone-color: var(--rs-online-color);
@@ -205,7 +206,7 @@
 /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
     --accentcolor: 90, 90, 90;
     /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-    --accentcolorV2: #fb5454;
+    --accentcolorV2: #0f3988fb;
 
 
     /*settings modal root*/

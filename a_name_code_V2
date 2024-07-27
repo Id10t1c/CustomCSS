@@ -5,6 +5,7 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+@import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/8353a951416397a0f39afaaac68c52ce2c9bf72b/Plugins/PersonalPins/PersonalPins.plugin.js)
 
 
 /*additional addons*/ /*(remove the both * to use)*/

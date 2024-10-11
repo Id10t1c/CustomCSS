@@ -25,10 +25,10 @@
 /*window*/ /*dark mode*/
 :root.theme-dark {
     --window-margin: 20px; /*must be above 20px*/
-    --window-colour: #0009;
+    --window-colour: rgba(0, 0, 0, 0.755);
     --window-blur: 5px;
     --window-border-radius: 10px;
-    --sidebar-colour: rgb(36, 36, 36);
+    --sidebar-colour: rgb(45, 44, 44);
 }
 
 /*window*/ /*light mode*/
@@ -68,7 +68,7 @@
 
 
     /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-    --accentcolor: 84, 84, 84;
+    --accentcolor: 100, 100, 100; 
     /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
     --accentcolorV2: #00000000;
 
@@ -234,7 +234,7 @@
 .container_e44302,
 .container_f1fd9c,
 .container_c2efea {
-  background-color: transparent !important;
+  background-color: rgba(5, 29, 57) !important;
 }
 
 /* transparent default avatar section background */
@@ -418,7 +418,7 @@
 /*chatbox recolour*/
 .input-2g-os5,
 .scrollableContainer_d0696b {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, .5) !important;
   transition: background-color 0.2s ease, border-color 0.2s ease;
   outline: none;
 }
@@ -453,7 +453,7 @@
 }
 
 .theme-dark .placeholder_a552a6::before {
-  content: "I'm such a silly boykisser";
+  content: "I love my boyfriend <3";
   color: rgba(255, 255, 255, 0.2);
   font-family: "Poppins";
   font-size: 17px;
@@ -1827,7 +1827,7 @@ svg {
 }
 
 .theme-dark .button-1U79Hu:after {
-  background: #fff !important;
+  background: hsl(0, 0%, 100%) !important;
   border: 0px solid #000 !important;
   content: "";
   height: 155px;
@@ -2009,7 +2009,7 @@ svg {
   background: #181a1d !important;
   box-shadow: 0 5px 8px #15171a;
   border-radius: 12px;
-  margin: 10px 10px 23px;
+  margin: 10px 10px 21px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2024,17 +2024,6 @@ svg {
   background-color: transparent;
   position: relative;
   overflow: hidden;
-}
-
-.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
-  content: 'this big gap is for the floating user controls, so sry if it looks ugly';
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.03);
-  text-align: center;
-  text-shadow: 0 0 15px #000;
-  margin-top: 50px;
-  height: 340px;
-  display: block;
 }
 
 .panels_a4d4d9 > .container_b2ca13 .flex_bba380 > :not(:last-child) {
@@ -3620,8 +3609,8 @@ html .channelTabs-newTab {
 /* Gives Each Messages a custom backgroud and adds a bit of border radius */
 .markup_f8f345.messageContent_f9f2ca {
     /* feel free to adjust the things according to your need */
-    background-color: #00000070;
-    color: rgba(208, 208, 208, 0.823);
+    background-color: #1f1f1fca;
+    color: rgba(208, 208, 208, 0.96);
     display: inline-block;
     border-radius: 7px;
     margin-left: 1px !important;
@@ -3637,4 +3626,42 @@ html .channelTabs-newTab {
 /* Hide "Quest" advertisements above profile area */
 .mask_c721cc {
     display: none;
+}
+
+/* changes the color of memeberlist as time passes as well as adds glow. Please change `500ms` and `1.5s` values as well as colors to your likings. */
+.members_cbd271:hover {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(14, 14, 14) 30%, rgb(32, 32, 32) 100%) !important;
+    animation: colorGlow 10s infinite alternate ease-in-out, glowing 2s infinite ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+@keyframes colorGlow {
+    0% {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(60, 60, 60, 1) 30%, rgba(0, 0, 0, 0) 100%);
+    }
+    25% {
+        background: linear-gradient(90deg, rgba(45, 45, 45, 1) 0%, rgba(90, 90, 90, 1) 30%, rgba(15, 15, 15, 0) 100%);
+    }
+    50% {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(5, 29, 57, 1) 30%, rgba(30, 0, 50, 0) 100%);
+    }
+    75% {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(5, 29, 57) 30%, rgba(0, 25, 50, 0) 100%);
+    }
+    100% {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 30%, rgba(50,rgba(0, 0, 0, 0)
+    }
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5)0 0 40px rgba(0, 0, 0, 0.5)
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(45, 45, 45, 0.59), 0 0 4rgba(45, 45, 45, 0.5), 0 0 50px rgba(45, 45, 45, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5)0 0 40px rgba(0, 0, 0, 0.5)
+    }
 }

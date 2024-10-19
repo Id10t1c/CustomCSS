@@ -2033,7 +2033,7 @@ svg {
   text-align: center;
   text-shadow: 0 0 15px #000;
   margin-top: 50px;
-  height: 340px;
+  height: 200px;
   display: block;
 }
 
